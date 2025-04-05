@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, Arial, Serif, serif;
+}
+
+/*
+    1. Từ ngoài vào trong
+    2. Từ trên xuống dưới
+    3. Tổng quan đên chi tiết
+ */
+
+/*
+    1. Vi tri
+    2. Kich thuoc (width, height)
+    3. Mau sac
+    4. Kieu dang (kieu chu, hinh tron, vuong, ...)
+ */
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+#nav, .subnav {
+    list-style: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+
+}
+
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none ;
+    /*line-height: 46px;*/
+    padding: 0 24px;
+    display: block;
+    ;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover,
+#nav > li:hover > a {
+    color: black;
+    background-color: gray;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px gray;
+    min-width: 160px;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#header .search-btn {
+    /*float: right;*/
+}
+
+#header .search-icon {
+    color: white;
+    font-size: 20px;
+}
+
+#slider {
+    min-height: 500px;
+    /*background-color: #333;*/
+}
+
+#content {
+
+}
+#footer {
+
+}
