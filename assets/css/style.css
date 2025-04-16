@@ -123,14 +123,29 @@ html {
 
 #slider .text-content {
     position:absolute;
+    bottom: 47px;
+    color: white;
+
+    /*left: 50%;*/
+    /*transform: translateX(-50%);*/
+
+    width: 100%;
+
+    /*right: 0;*/
+    /*left: 0;*/
+
+    text-align: center;
 }
 
 #slider .text-heading {
-
+    font-weight: 600; /* Độ dày của chuwx*/
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 #slider .text-description {
-
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 
