@@ -116,12 +116,27 @@ html {
 }
 
 #slider {
-    min-height: 500px;
-    /*background-color: #333;*/
+    padding-top: 50%;
+    margin-top: 46px;
+    background: url("../img/slider1.jpg") top center / cover no-repeat;
 }
 
-#content {
+#slider .text-content {
+    position:absolute;
+}
 
+#slider .text-heading {
+
+}
+
+#slider .text-description {
+
+}
+
+
+#content {
+    height: 1000px;
+    background-color: #ccc;
 }
 #footer {
 
